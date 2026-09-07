@@ -3,7 +3,10 @@ name: Build Bouncing Ball A00 Player APK
 on:
   workflow_dispatch:
   push:
-    branches: [ main, master ]
+    branches:
+      - main
+      - master
+      - v39-development
 
 jobs:
   build:
